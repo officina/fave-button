@@ -40,7 +40,7 @@ public extension FaveButtonDelegate{
     func faveButtonDotColors(_ faveButton: FaveButton) -> [DotColors]?{ return nil }
 }
 
-open class FaveButton: UIButton {
+open class FaveButton: EventTaggableButton {
     
     fileprivate struct Const{
         static let duration             = 1.0
